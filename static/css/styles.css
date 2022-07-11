@@ -1,0 +1,245 @@
+body {
+    color: #4d3439;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    font-size: 420%;
+}
+
+.btn {
+    --bs-btn-border-radius: 3px;
+}
+
+.btn-primary{
+    --bs-btn-bg: #4d3439;
+    --bs-btn-border-color: #4d3439;
+    --bs-btn-hover-bg: #6a5055;
+    --bs-btn-hover-border-color: #6a5055;
+    --bs-btn-active-bg: #6a5055;
+    --bs-btn-active-border-color: #6a5055;
+    --bs-btn-disabled-bg: #4d3439;
+    --bs-btn-disabled-border-color: #4d3439;
+    --bs-btn-focus-shadow-rgb: 128,88,95;
+}
+
+.btn-secondary{
+    --bs-btn-bg: #AD8B73;
+    --bs-btn-border-color: #AD8B73;
+    --bs-btn-hover-bg: #cba386;
+    --bs-btn-hover-border-color: #cba386;
+    --bs-btn-active-bg: #cba386;
+    --bs-btn-active-border-color: #cba386;
+    --bs-btn-disabled-bg: #AD8B73;
+    --bs-btn-disabled-border-color: #AD8B73;
+    --bs-btn-focus-shadow-rgb: 227,193,168;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 3px 3px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #AD8B73;
+    padding-bottom: 16px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* index.html */
+#body-index{
+    background-color: #f2ebe3;
+}
+
+.container-outer {
+    width: 70%;
+    margin: auto;
+}
+
+.container-div {
+    padding-top: 20vh;
+    text-align: center;
+    height: 100%;
+    display: inline-block;
+}
+
+.text-div {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    color: #AD8B73;
+    padding-bottom: 30px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.description {
+    color: #AD8B73;
+    text-align: justify;
+    width: 73%;
+}
+
+.description-text {
+    font-size: 130%;
+}
+
+.time-selector {
+    color: #AD8B73;
+}
+
+.ui.dropdown>.dropdown.icon {
+    margin-left: 3px;
+}
+
+.btn-index {
+    margin-top: 20px;
+}
+
+.index-img {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
+
+/* write.html */
+
+.app{
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    font-weight: 400;
+}
+
+.content {
+    width: 100%;
+    max-width: 750px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-lg-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.editor {
+    height: 100%;
+    padding-top: 80px;
+}
+
+textarea {
+    padding-right: 3vh;
+    padding-left: 3vh;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    line-height: 1.65;
+    font-size: 14pt;
+    resize: none;
+}
+
+/* modal */
+.modal-sheet {
+    background-color: #f2ebe3 !important;
+}
+
+.modal-dialog {
+    top: 28%;
+}
+
+.modal-content {
+    border-radius: 5px !important;
+}
+
+.modal-header {
+    margin: auto;
+}
+
+.modal-title {
+    font-size: 3rem;
+}
+
+.btn-home{
+    --bs-btn-bg: #E3CAA5;
+    --bs-btn-border-color: #E3CAA5;
+    --bs-btn-hover-bg: #cba386;
+    --bs-btn-hover-border-color: #cba386;
+    --bs-btn-active-bg: #cba386;
+    --bs-btn-active-border-color: #cba386;
+    --bs-btn-disabled-bg: #AD8B73;
+    --bs-btn-disabled-border-color: #AD8B73;
+    --bs-btn-focus-shadow-rgb: 227,193,168;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1600px) {
+    .container-outer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-div {
+        padding-top: 10vh;
+    }
+    .row {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .index-img {
+        position: static !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description {
+        width: 100% !important;
+    }
+    .dropdown {
+        margin-right: -30px
+    }
+}
