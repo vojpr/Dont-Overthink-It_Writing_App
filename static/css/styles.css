@@ -219,6 +219,15 @@ textarea {
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .container-div {
+        padding-top: 10vh;
+    }
+    .row {
+        padding-bottom: 50px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .container-div {
         padding-top: 10vh;
