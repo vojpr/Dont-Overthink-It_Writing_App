@@ -1,4 +1,4 @@
-# Dont-Overthink-It_Writing_App
+# Dont-Overthink-It_Writing_Web_App
 
 Link: https://dont-overthink-it.herokuapp.com/ 
 
