@@ -74,7 +74,7 @@
     <script>
         var modal = document.getElementById("modalSheet");
 
-        var timeoutHandle = window.setTimeout(function() {modal.style.display = "block";}, {{ (seconds-0.2)*1000 }} );
+        var timeoutHandle = window.setTimeout(function() {modal.style.display = "block";}, {{ (seconds)*1000 }} );
         window.clearTimeout(timeoutHandle);
 
         function start() {
@@ -83,7 +83,7 @@
             document.querySelector(".textbody").className = "textbody fade-out";
           });
           window.clearTimeout(timeoutHandle);
-          timeoutHandle = window.setTimeout(function() {modal.style.display = "block";}, {{ (seconds-0.2)*1000 }} );
+          timeoutHandle = window.setTimeout(function() {modal.style.display = "block";}, {{ (seconds)*1000 }} );
         };
 
         function exportText(){
