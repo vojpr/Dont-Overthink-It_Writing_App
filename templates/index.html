@@ -27,8 +27,8 @@
                 </div>
                 <div class="subtitle">
                     <h4>
-                        <p>Stop thinking about every detail of your story before you even finished first sentence.</p>
-                        <p>Stop spending time deciding which of the ten synonyms you should use.</p>
+                        <p>Stop thinking about every detail of your story before you have even written the first sentence.</p>
+                        <p>Stop wasting time deciding which of the ten synonyms to use.</p>
                         <p>Stop overthinking, start writing.</p>
                     </h4>
                 </div>
@@ -36,11 +36,11 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="description description-text">
-                                <p>Go ahead and write down what's on your mind. But don't overthink it. All your progress will be lost if you stop typing.</p>
+                                <p>Go ahead and write down what's on your mind. But don't overthink it. Once you stop typing, you have to start over.</p>
                             </div>
                             <form method="post" action="{{ url_for('write') }}">
                                 <div class="time-selector description-text">
-                                    <div class="ui scrolling dropdown">
+                                    <div class="ui scrolling dropdown scrolling-dropdown-text">
                                         Text will disappear after
                                         <input type='hidden' id='div-seconds-value' name="seconds-selector">
                                         <div id='div-seconds' class="text">5</div>
@@ -50,7 +50,7 @@
                                                 <div class="item">{{ number }}</div>
                                             {% endfor %}
                                         </div>
-                                        seconds.
+                                        seconds of inactivity.
                                     </div>
                                 </div>
                                 <button role="button" type="submit" class="btn btn-primary btn-lg btn-index">Start writing!</button>

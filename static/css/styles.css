@@ -111,6 +111,11 @@ a:hover {
     color: #AD8B73;
 }
 
+.scrolling-dropdown-text {
+    text-align: justify !important;
+    width: 73%;
+}
+
 .ui.dropdown>.dropdown.icon {
     margin-left: 3px;
 }
